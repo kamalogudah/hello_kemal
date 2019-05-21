@@ -1,0 +1,17 @@
+name: hello_kemal
+version: 0.1.0
+
+authors:
+  - kamalogudah <mcpaul2058@gmail.com>
+
+targets:
+  hello_kemal:
+    main: src/hello_kemal.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.28.0
+
+license: MIT
